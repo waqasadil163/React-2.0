@@ -1,0 +1,12 @@
+// custom.scss
+
+@import 'bootstrap/scss/bootstrap'; // no url(), no quotes for CSS files
+
+// Now you can use SCSS variables like:
+.gray {
+    background-color: $gray-200;
+}
+
+.white {
+    background-color: $white;
+}
